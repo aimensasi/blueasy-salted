@@ -1,0 +1,340 @@
+*{
+    outline: 0 !important;
+}
+
+body{
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.flex{
+    display: flex;
+}
+
+.header{
+    background-image: url(../assets/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 600px;
+    
+}
+
+.dark-bar{
+    background: black;
+    opacity: .6;
+    padding: 20px 0;
+}
+
+.logo{
+    margin-right: auto;
+    font-size: 1.5rem;
+}
+.nav{
+    margin-top: 10px;
+}
+
+
+.navbar-nav .nav-link, .nav-inline .nav-link{
+    padding: 0 15px !important;
+    border: 1.5px solid transparent;
+    color: white;
+}
+
+.navbar-nav .nav-link:hover, .active, .nav-inline .nav-link:hover{
+    cursor: pointer;
+    color: #4bcaff !important;
+    border-color: #4bcaff !important; 
+}
+
+.header .text{
+    margin-top: 200px; 
+}
+
+.header .text h3{
+    display: inline-block;
+    background: black;
+    opacity: .6;
+    padding: 10px 10px;
+    margin-bottom: 15px;
+    color: white;
+    font-weight: 100;
+    font-family: sans-serif;
+    
+}
+
+
+.services{
+    background: #4bcaff;
+    color: white;
+    padding: 80px 0;
+}
+
+.services .title h3, .full-row-img h3{
+    margin-bottom: 70px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+.services .title h3 i{
+    font-style: normal;
+    border-bottom: thin solid white;
+}
+
+.col-item img{
+    margin-bottom: 20px;
+}
+.col-item h5{
+    font-weight: 300;
+}
+.col-item p{
+    font-weight: 200;
+    font-family: sans-serif;
+    font-size: .9rem;
+}
+
+.portfolio,
+.d-section,
+.twitter,
+.full-row-img,
+.testimonials,
+.contact,
+.footer{
+    padding: 80px 0;
+    
+}
+
+
+.portfolio .title,
+.testimonials .title,
+.contact .title{
+    margin-bottom: 60px;
+
+    
+}
+
+.portfolio .title  i,
+.d-section i,
+.twitter .title i,
+.full-row-img h3 i,
+.testimonials .title i,
+.contact .title i{
+    font-style: normal;
+    border-bottom: thin solid black;
+    
+}
+
+.d-section i ,
+.twitter .title i,
+.full-row-img h3 i,
+.contact .title i{
+    border-color: white;
+}
+
+.portfolio .title h3, .testimonials .title{
+    margin-right: auto; 
+}
+
+
+.portfolio .nav-link{
+    color: black;
+}
+
+.portfolio .row:not(.title){
+    margin-bottom: 20px;
+}
+
+.portfolio figure:hover {
+    cursor: pointer;
+}
+
+.portfolio figure{
+    display: block;
+    position: relative;
+    width: 270px;
+}
+
+.portfolio figcaption{
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    height: 270px;
+    width: 270px;
+    background-color: black;
+    opacity: 0;
+    text-align: center;
+    -webkit-transition: all 0.6s ease;
+    -moz-transition:    all 0.6s ease;
+    -o-transition:      all 0.6s ease;
+}
+.portfolio figcaption i{
+    display: block;
+    color: white;
+    margin-top: 135px;
+}
+
+
+.portfolio figure:hover figcaption {
+  opacity: 1;
+ 
+}
+
+
+.d-section{
+    background: #515f67;
+    color: white;
+   
+}
+.d-section h3, .d-section .leads{
+    font-weight: 300;
+    font-style: normal;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+
+
+
+.btn-secondary-outline{
+    border-radius: 0;
+    border-color: black;
+    color: black;
+    width: 130px;
+    height: 35px
+}
+
+.btn-secondary-outline:hover{
+    background: #515f67;
+    color: white; 
+}
+
+
+.twitter{
+    background: #4bcaff;
+    color: white;
+}
+
+.twitter .title{
+    margin-right: auto;
+    font-weight: 100;
+    letter-spacing: 2.5px;
+}
+
+.twitter .title{
+    margin-right: auto;
+    font-weight: 100;
+}
+
+.twitter .row:first-child{
+    margin-bottom: 25px;
+}
+
+.twitter .leads, .full-row-img .leads{
+    font-size: 1.3rem;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+
+.twitter .twitlink{
+    color: white;
+    text-decoration: none;
+}
+
+.full-row-img{
+    color: white;
+}
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+
+.full-row-img .ic_social i{
+    color: white;
+    width: 60px;
+    height: 60px;
+    padding-top: 10px;
+    text-align: center;
+    border: 3px solid white;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.testimonials .leads{
+    margin-bottom: 30px;
+}
+.testimonials .owner{
+    color: #4bcaff;
+}
+
+.contact, .contact .title{
+    color: white;
+    font-weight: 100;
+    letter-spacing: 2.5px;
+}
+
+.contact .form-control, .contact .list-group-item, .footer .list-group-item {
+    background: transparent;
+    border-width: 2px;
+}
+
+.contact .list-group-item, .footer .list-group-item{
+    border: none;
+    margin: 0;
+    padding: 0;
+    font-size: .8rem;
+}
+
+.contact .leads{
+    font-size: .8rem;
+}
+
+.contact form .row:first-child{
+    margin-bottom: 50px;
+}
+
+.contact .btn-primary{
+    background: #4bcaff;
+    width: 280px;
+    height: 40px;
+    border: none;
+    font-weight: 100;
+    letter-spacing: 2.5px;
+    margin-top: 15px;
+    margin-left: -18px;
+    cursor: pointer;
+}
+
+
+.footer{
+    background-color: #353f47;
+    color: #515f67 ;
+}
+
+.footer .list-inline{
+    margin-right: auto; 
+}
+
+.footer .list-inline .nav-link{
+    display: inline-block;
+    padding: 0 20px;
+    cursor: pointer;
+    color: #515f67 !important;
+}
+
+.footer .list-inline .nav-link:not(.con){
+    border-right: 2.5px solid #515f67;
+}
+
+.footer .c-right{
+    font-size: 1.1rem;
+}
+
+
+.footer .list-inline .nav-link:hover{
+    color: white !important;
+}
+
+
+

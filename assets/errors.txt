@@ -1,0 +1,4 @@
+[Wed May 04 2016 20:47:17 GMT+0800 (Malay Peninsula Standard Time)] layer ": portfolio photo.png": Duplicate path: _ portfolio photo.png
+[Wed May 04 2016 20:47:17 GMT+0800 (Malay Peninsula Standard Time)] layer ": portfolio photo.png": Duplicate path: _ portfolio photo.png
+[Wed May 04 2016 20:47:17 GMT+0800 (Malay Peninsula Standard Time)] layer ": portfolio photo.png": Duplicate path: _ portfolio photo.png
+[Wed May 04 2016 20:47:17 GMT+0800 (Malay Peninsula Standard Time)] layer "+": Expected Either a default asset specification or a layer asset specification but "+" found.
